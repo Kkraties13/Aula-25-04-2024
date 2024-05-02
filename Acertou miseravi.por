@@ -1,11 +1,11 @@
-// Crie um algoritmo para um jogo de adivinhação em que o jogador tenta adivinhar um número secreto. Use um loop 'faça enquanto' para permitir que o jogador continue adivinhando até que acerte o número secreto. O jogo deve fornecer feedback ao jogador sobre se a tentativa foi muito alta, muito baixa ou correta.
+// Crie um algoritmo para um jogo de adivinhaÃ§Ã£o em que o jogador tenta adivinhar um nÃºmero secreto. Use um loop 'faÃ§a enquanto' para permitir que o jogador continue adivinhando atÃ© que acerte o nÃºmero secreto. O jogo deve fornecer feedback ao jogador sobre se a tentativa foi muito alta, muito baixa ou correta.
 programa {
   funcao inicio() {
    inteiro sorte = 1547, numero 
 
-   enquanto(numero != sorte)
+   faca
    {
-    escreva("Digite um número: ")
+    escreva("Digite um nÃºmero: ")
     leia(numero)
     
     se (numero == sorte)
@@ -20,6 +20,7 @@ programa {
     {
       escreva("Puts, foi muito alto\n")
     }
-   } 
+   }
+   enquanto(numero != sorte)
   }
 }
